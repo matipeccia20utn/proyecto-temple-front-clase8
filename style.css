@@ -29,7 +29,7 @@ body {
 
 .reviews-text {
     display: flex;
-    gap: 80px;
+    gap: 30px;
 }
 
 .reviews-text header {
@@ -45,18 +45,43 @@ body {
 
 .reviews-text header p {
     font-size: 15px;
-    background-color: var(--madium-magenta);
-    
+    color: var(--dark-magenta);
 }
 
 .reviews-stars {
-    background-color: aqua;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.card-1 {
+    align-self: start;
+}
+
+.card-3 {
+    align-self: end;
 }
 
 .reviews-valoration {
-    background-color: chocolate;
+    width: 90%;
+    background-color: var(--light-magenta);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    padding: 8px;
+    border-radius: 5px;
+
 }
+
+.reviews-valoration h3 {
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
 
